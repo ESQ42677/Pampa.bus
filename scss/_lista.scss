@@ -1,0 +1,52 @@
+body{
+    color:$try-color;
+}
+header {
+    text-align: center;
+    
+    h1{
+        background-position: center;
+        color: $primary-color
+        
+    }
+    h2{
+
+        background-position: center;
+        color: $primary-color
+    }
+    h3{
+        color:$four-color;
+    }
+    nav {
+        flex-flow: column-reverse;
+        columns: col-med;
+        ul{ 
+            list-style-type:none;
+            margin: 0;
+            padding: 0;;
+            justify-content: flex-end;
+            align-content:space-around 
+            }
+           li{ float: left;
+                a{
+                text-decoration: none;
+                color: $primary-color;
+                display: block;
+                padding: 12px 26px;}
+
+                
+             }
+         }
+      }
+    
+main{
+    background-color: $secundary-color;
+    section{
+        background-color:black ;
+        p{
+            background-color:$secundary-color ;
+            display:block
+        }
+
+    }
+}
