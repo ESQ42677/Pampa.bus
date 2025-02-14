@@ -1,8 +1,61 @@
-@import "variables";
+@import "variable";
 @import "lista";
+ /*reset*/
+ *{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 body{
-    background-color:$primary-color;
+    background-color:$try-color; 
 }
+h1{
+    color:$secundary-color;
+    text-align: center;
+    display: flex;
+
+}
+  /* estilos de main */
+  main{ color:$try-color;
+    nav{ display: flex;
+        color: $try-color;
+        ul{
+            background-color:$try-color;
+            gap: 1rem;
+            li{
+                justify-content: space-between;
+                a{  display: flex;
+                    color: $four-color;
+                    list-style: none
+
+
+                }
+             
+            }
+        }
+    }
+  }
+  /* estilos de div*/
+  .div img{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    padding: 1px;
+  
+  
+  }
+.pie{
+    background-color: $try-color;
+        p{
+         color: $four-color;
+
+    }
+    
+  }
+  h1{
+    color: black;
+  }
 
 
 

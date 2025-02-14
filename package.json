@@ -1,0 +1,19 @@
+{
+  "name": "pampabus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ESQ42677/Pampa.bus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ESQ42677/Pampa.bus/issues"
+  },
+  "homepage": "https://github.com/ESQ42677/Pampa.bus#readme",
+  "description": ""
+}
